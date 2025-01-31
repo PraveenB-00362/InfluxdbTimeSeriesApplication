@@ -204,6 +204,7 @@ public class MachineStatusQueryService {
         return averages;
     }
 
+    //
     public Map<String, Double> getMaxUsage(
             String machineName, String startDate, String endDate, Set<String> fields) {
 
